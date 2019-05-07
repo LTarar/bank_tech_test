@@ -8,4 +8,8 @@ class ATM
   def deposit(money)
     @balance += money
   end
+
+  def withdrawal(money)
+    @balance -= money
+  end
 end
