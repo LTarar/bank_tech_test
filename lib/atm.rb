@@ -9,7 +9,7 @@ class ATM
     @balance += money
   end
 
-  def withdrawal(money)
+  def withdraw(money)
     @balance -= money
   end
 end
