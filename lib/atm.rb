@@ -19,8 +19,12 @@ class ATM
 
   def print_statement
     statement = ['date || credit || debit || balance']
-    statement.push("#{@date_of_withdrawal} || || #{@withrawal_amount} || #{@balance_after_withrawal}")
-    statement.push("#{@date_of_deposit} || #{@deposit_amount} || || #{@balance_after_deposit}")
+    if @current_balance > 0
+      statement.push("#{@date_of_withdrawal} || || #{@withrawal_amount} || #{@balance_after_withrawal}")
+      statement.push("#{@date_of_deposit} || #{@deposit_amount} || || #{@balance_after_deposit}")
+    else
+      statement
+    end
   end
 
   private
