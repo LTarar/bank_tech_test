@@ -25,12 +25,9 @@
         1,
         null,
         null,
-        null,
         null
       ],
       "/Users/student/Dropbox/Projects/week10/bank_test_test/lib/atm.rb": [
-        1,
-        null,
         1,
         1,
         null,
@@ -52,8 +49,8 @@
         null,
         1,
         1,
-        null,
-        null,
+        1,
+        1,
         null,
         null,
         1,
@@ -64,16 +61,16 @@
         null,
         1,
         5,
-        5,
-        null,
         null,
         null
       ],
       "/Users/student/Dropbox/Projects/week10/bank_test_test/spec/features/printing_statement_spec.rb": [
         1,
+        1,
         null,
         1,
-        2,
+        1,
+        1,
         null,
         null,
         null,
@@ -85,8 +82,13 @@
         1,
         null,
         null
+      ],
+      "/Users/student/Dropbox/Projects/week10/bank_test_test/spec/date_helper.rb": [
+        1,
+        2,
+        null
       ]
     },
-    "timestamp": 1557313969
+    "timestamp": 1557354672
   }
 }
