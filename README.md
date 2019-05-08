@@ -3,6 +3,8 @@
 ## How to set up
 - git clone 'https://github.com/WardahTarar/bank_tech_test'
 - cd bank_tech_test
+- irb
+- require './lib/atm.rb' to access the file.
 
 ## Basic Requirements
 - Deposits
@@ -15,6 +17,7 @@
 - Rspec
 
 ## Tests
+- Offers multiple tests to fulfill user requirements
 
 ## Motivation
 The motivation behind this program was that to:
