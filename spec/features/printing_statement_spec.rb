@@ -10,6 +10,8 @@ describe 'Bank Statement Printed' do
      "#{date} || 500.00 || || 500.00"]
   end
 
+  let(:empty_output) { ['date || credit || debit || balance'] }
+
   it 'checks for account statement being printed with date, amount, balance' do
     atm.deposit(500)
     atm.withdraw(200)
@@ -18,6 +20,6 @@ describe 'Bank Statement Printed' do
 
   it 'checks for account statement being printed without any prior transaction' do
     atm = ATM.new
-    expect(atm.print_statement).to eq ['date || credit || debit || balance']
+    expect(atm.print_statement).to eq empty_output
   end
 end
