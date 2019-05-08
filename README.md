@@ -17,7 +17,7 @@
 - Rspec
 
 ## Tests
-- Offers multiple tests to fulfill user requirements
+- Offers multiple tests to check user requirements
 
 ## Motivation
 The motivation behind this program was that to:
