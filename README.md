@@ -1,7 +1,7 @@
 # Bank Tech Test
 
 ## How to set up
-- git clone 'https://github.com/LTarar/bank_tech_test'
+- git clone 'https://github.com/ltarar/bank_tech_test'
 - cd bank_tech_test
 - irb
 - require './lib/atm.rb' to access the file.
